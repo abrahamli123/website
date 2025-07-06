@@ -37,6 +37,13 @@ main{
     flex-direction: column;
     gap: 20px;
     width: 900px;
+    padding-bottom:200px;
+}
+
+.rightSide {
+    display: flex;
+    gap: 20px;
+    padding-bottom:200px;
 }
 
 .navigationLinks {
@@ -49,7 +56,12 @@ main{
     font-size: 20px;
 }
 
+.bottom {
+    background-color: rgb(89, 168, 214);
+}
+
 .newsSection {
     text-align: center;
     font-size: 30px;
+    padding-top: 100px
 }
