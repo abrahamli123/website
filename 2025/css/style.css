@@ -20,6 +20,7 @@ main{
     gap: 150px;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .logo{
@@ -46,4 +47,9 @@ main{
 .link {
     color: black;
     font-size: 20px;
+}
+
+.newsSection {
+    text-align: center;
+    font-size: 30px;
 }
