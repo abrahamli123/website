@@ -15,7 +15,7 @@
 main{
     padding: 30px;
     padding-top: 150px;
-    font-size: 50px;
+    font-size: 40px;
     display: flex;
     gap: 150px;
     justify-content: center;
@@ -36,8 +36,10 @@ main{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 900px;
-    padding-bottom:200px;
+    max-width: 900px;
+    padding-bottom:100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .rightSide {
@@ -62,12 +64,12 @@ main{
 
 .newsSection {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 50px;
 }
 
@@ -77,13 +79,16 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 200px;
+    gap: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .newsImage {
-    width: 500px;
-    height: 300px;
+    max-width: 60%;
+    height: auto;
     object-fit: cover;
+
 }
 
 .newsIndividual {
