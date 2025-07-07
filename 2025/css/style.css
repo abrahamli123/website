@@ -65,3 +65,12 @@ main{
     font-size: 30px;
     padding-top: 100px
 }
+
+.newsItem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
