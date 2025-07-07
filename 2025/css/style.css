@@ -68,9 +68,22 @@ main{
 
 .newsItem {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 300px;
+}
+
+.newsSection{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.newsImage {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
