@@ -8,54 +8,58 @@
     </head>
 
     <body>
-        <div class="topbar">
-            <a href="index.html" class="logo">The Stock Website</a>
-            <div class="navigationLinks">
-                <a href="news.html" class="link">News</a>
-                <a href="brokers.html" class="link">Brokers</a>
-                <a href="TopPicks.html" class="link">Top Picks</a>
-                <a href="Invest.html" class="link">Invest</a>
+        <div class="newsPageContent">
+            <div class="topbar">
+                <a href="index.html" class="logo">The Stock Website</a>
+                <div class="navigationLinks">
+                    <a href="news.html" class="link">News</a>
+                    <a href="brokers.html" class="link">Brokers</a>
+                    <a href="TopPicks.html" class="link">Top Picks</a>
+                    <a href="Invest.html" class="link">Invest</a>
+                </div>
             </div>
-        </div>
-        <div class="ticker">
-            <!-- TradingView Widget BEGIN -->
-            <div class="tradingview-widget-container">
-            <div class="tradingview-widget-container__widget"></div>
-            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
-            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-            {
-            "symbols": [
+            <div class="ticker">
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="white-text">Track all markets on TradingView</span></a></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
                 {
-                "proName": "FOREXCOM:SPXUSD",
-                "title": "S&P 500 Index"
-                },
-                {
-                "proName": "BITSTAMP:BTCUSD",
-                "title": "Bitcoin"
-                },
-                {
-                "proName": "NASDAQ:AAPL",
-                "title": "Apple"
-                },
-                {
-                "proName": "OANDA:XAUUSD",
-                "title": "Gold"
-                },
-                {
-                "proName": "NASDAQ:NVDA",
-                "title": "Nvidia"
+                "symbols": [
+                    {
+                    "proName": "FOREXCOM:SPXUSD",
+                    "title": "S&P 500 Index"
+                    },
+                    {   
+                    "proName": "BITSTAMP:BTCUSD",
+                    "title": "Bitcoin"
+                    },
+                    {
+                    "proName": "NASDAQ:AAPL",
+                    "title": "Apple"
+                    },
+                    {
+                    "proName": "OANDA:XAUUSD",
+                    "title": "Gold"
+                    },
+                    {
+                    "proName": "NASDAQ:NVDA",
+                    "title": "Nvidia"
+                    }
+                ],
+                "colorTheme": "dark",
+                "locale": "en",
+                "largeChartUrl": "",
+                "isTransparent": false,
+                "showSymbolLogo": true,
+                "displayMode": "adaptive"
                 }
-            ],
-            "colorTheme": "dark",
-            "locale": "en",
-            "largeChartUrl": "",
-            "isTransparent": false,
-            "showSymbolLogo": true,
-            "displayMode": "adaptive"
-            }
-            </script>
+                </script>
+                </div>
+                <!-- TradingView Widget END -->
             </div>
-            <!-- TradingView Widget END -->
+            <div class="newsArticles">
+                <h1>News in the Market</h1>
+            </div>
         </div>
-        
     </body>
