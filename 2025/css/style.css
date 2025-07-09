@@ -154,3 +154,14 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+.brokerImage{
+    max-height:300px;
+    width:100%;
+    height:auto;
+}
+
+.brokersPage{
+    display:grid;
+    grid-template-columns: repeat(1, 3fr);
+}
