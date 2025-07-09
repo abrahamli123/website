@@ -82,6 +82,18 @@ main{
     flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
+    max-width: 700px;
+}
+
+.newsHompage {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width:fit-content
 }
 
 .newsItem {
@@ -128,3 +140,12 @@ main{
     padding-top:70px;
 }
 
+.newsContent{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
