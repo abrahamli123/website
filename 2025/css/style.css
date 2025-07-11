@@ -9,7 +9,7 @@
     padding-left: 10px;
     display: flex;
     justify-content: flex-start;
-    gap: 100px;
+    gap: 4vw;
 }
 
 a{
@@ -40,11 +40,12 @@ main{
 }
 
 .logo{
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     line-height: 50px;
+    min-width: 200px;
     width : 250px;
 }
 
@@ -66,12 +67,12 @@ main{
 
 .navigationLinks {
     display: flex;
-    gap: 100px;
+    gap: 10vw;
 }
 
 .link {
     color: black;
-    font-size: 20px;
+    font-size: 3vh;
 }
 
 .bottom {
@@ -165,3 +166,58 @@ main{
     display:grid;
     grid-template-columns: repeat(1, 3fr);
 }
+
+.slideTopPicks{
+    width:100vw;
+    height:100vh;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 200vw;
+    height: 100vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+ 
+.one {
+    background-color: aqua;
+}
+
+.two {
+    background-color: black;
+}
+.outerWrapper{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: absolute;
+}
+
+.brokerImage{
+    width: 30%;
+    height: 30%;
+    max-width: 1080px;
+    max-height: 1080px;
+}
+
+.howToInvest1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    gap: 20px;
+    font-size: 2.2vw;
+    align-items: center;
+    align-content: center;
+}
+
+.investParagraph{
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+}
+
