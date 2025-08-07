@@ -172,32 +172,6 @@ main{
     height:100vh;
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: row;
-    width: 200vw;
-    height: 100vw;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-}
- 
-.one {
-    background-color: aqua;
-}
-
-.two {
-    background-color: black;
-}
-.outerWrapper{
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg);
-    transform-origin: top left;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    position: absolute;
-}
-
 .brokerImage1{
     width: 30%;
     height: 30%;
