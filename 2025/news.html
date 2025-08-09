@@ -133,11 +133,15 @@
                             and household electronics.</p2>
                     </div>
                     
-                   <video width="320" height="320" controls>
-                        <source src="video/stocks.mp4" type="video/mp4">
-                        <source src="video/stocks.ogg" type="video/ogg">
-                    Your browser does not support this video tag
-                   </video>
+                    <div class="videoWithButton">
+                        <button onclick="playPause()"> play/pause </button>
+
+                        <video id="video" class="video" width=30%>
+                                <source src="video/stocks.mp4" type="video/mp4">
+                            Your browser does not support this video tag
+                        </video>
+                    </div>
+                    <script src="javascript/script.js"> </script>
                 </div>
             </div>
         </div>

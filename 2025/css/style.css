@@ -1,3 +1,23 @@
+.tradingview-widget-container{
+    max-width:100%;
+}
+
+
+.videoWithButton{
+    display: flex;
+    width:33%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videoWithButton video{
+    width:100%;
+}
+
+.videoWithButton video{
+    color:white;
+}
+
 .topbar{
     background-color:rgb(83, 148, 86);
     height: 50px;
@@ -127,6 +147,11 @@ main{
     align-items: center;
     gap: 20px;
     height: 500px;
+}
+
+.video {
+    width:33%;
+    height:auto;
 }
 
 .ticker {
