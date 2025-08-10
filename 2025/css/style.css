@@ -184,13 +184,14 @@ main{
 
 .brokerImage{
     max-height:300px;
-    width:100%;
+    width:30vw;
     height:auto;
 }
 
 .brokersPage{
     display:grid;
-    grid-template-columns: repeat(1, 3fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap:1vh;
 }
 
 .slideTopPicks{
