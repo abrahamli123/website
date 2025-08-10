@@ -1,7 +1,8 @@
-.tradingview-widget-container{
-    max-width:100%;
-}
 
+.tradingViewsize{
+    width:48vw;
+    height: auto;
+}
 
 .videoWithButton{
     display: flex;

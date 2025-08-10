@@ -41,30 +41,32 @@
             </div>
 
             <!-- TradingView Widget BEGIN -->
-            <div class="tradingview-widget-container-1">
-                <div class="tradingview-widget-container__widget"></div>
-                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
-                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-stock-heatmap.js" async>
-                {
-                "dataSource": "SPX500",
-                "blockSize": "market_cap_basic",
-                "blockColor": "change",
-                "grouping": "sector",
-                "locale": "en",
-                "symbolUrl": "",
-                "colorTheme": "dark",
-                "exchanges": [],
-                "hasTopBar": false,
-                "isDataSetEnabled": false,
-                "isZoomEnabled": true,
-                "hasSymbolTooltip": true,
-                "isMonoSize": false,
-                "width": "700",
-                "height": "680"
-                }
-                </script>
-            </div>
-            <!-- TradingView Widget END -->
+                    <div class="tradingViewsize">
+                    <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-stock-heatmap.js" async>
+                    {
+                    "dataSource": "SPX500",
+                    "blockSize": "market_cap_basic",
+                    "blockColor": "change",
+                    "grouping": "sector",
+                    "locale": "en",
+                    "symbolUrl": "",
+                    "colorTheme": "dark",
+                    "exchanges": [],
+                    "hasTopBar": false,
+                    "isDataSetEnabled": false,
+                    "isZoomEnabled": true,
+                    "hasSymbolTooltip": true,
+                    "isMonoSize": false,
+                    "width": 800,
+                    "height": 650
+                    }
+                    </script>
+                    <!-- the redlines are because html doesnt see it as valid syntax but it is custom json by the trading view widget so i can ignore the redlines because its not invalid, vscode just sees it as invalid -->
+                    </div>
+                </div>
+                <!-- TradingView Widget END -->
         </div>
 
         <div class="howToInvest1">
