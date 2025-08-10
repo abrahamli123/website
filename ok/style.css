@@ -1,0 +1,105 @@
+.topbar{
+    background-color:rgb(83, 148, 86);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+main{
+    padding: 30px;
+    padding-top: 150px;
+    font-size: 50px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    font-size: 30px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    line-height: 50px;
+    width : 250px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 900px;
+    padding-bottom:200px;
+}
+
+.rightSide {
+    display: flex;
+    gap: 20px;
+    padding-bottom:200px;
+}
+
+.navigationLinks {
+    display: flex;
+    gap: 100px;
+}
+
+.link {
+    color: black;
+    font-size: 20px;
+}
+
+.bottom {
+    background-color: rgb(89, 168, 214);
+}
+
+.newsSection {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.newsItem {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    gap: 200px;
+}
+
+.newsSection{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.newsImage {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.newsIndividual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+}
