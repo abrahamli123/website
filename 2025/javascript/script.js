@@ -15,5 +15,5 @@ function back10(){
 }
 
 function forward10(){
-    video.currentTime = Math.max(0, video.currentTime + 10);
+    video.currentTime = Math.min(153, video.currentTime + 10);
 }
