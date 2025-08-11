@@ -17,6 +17,10 @@
     color:white;
 }
 
+.buttons{
+    display:block
+}
+
 
 .topbar{ /* Fixed navigation bar at the top of the page */
     background-color:rgb(83, 148, 86);

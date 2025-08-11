@@ -134,8 +134,11 @@
                     </div>
                     
                     <div class="videoWithButton"> <!-- button for the video that is on the screen pause/play control-->
-                        <button onclick="playPause()"> play/pause </button>
-
+                        <div class="buttons">
+                            <button onclick="back10()"> -10 seconds </button>
+                            <button onclick="playPause()"> play/pause </button>
+                            <button onclick="forward10()"> +10 seconds </button>
+                        </div>
                         <video id="video" class="video">
                                 <source src="video/trade.mp4" type="video/mp4">
                             Your browser does not support this video tag
